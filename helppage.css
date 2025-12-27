@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: #0062e3;
+    width: 100%;
+    height: 540px;
+}
+.header{
+    background-color: #0062e3;
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    display: flex;
+}
+.logo{
+    background-color: aliceblue;
+    width: 100px;
+    height: 50px;
+    margin: 10px 0px 0px 30px;
+}
+.header-text{
+    /* background-color: blueviolet; */
+    width: 210px;
+    height: 50px;
+    margin: 20px 0px 0px 600px;
+    font-size: larger;
+    box-sizing: border-box;
+    padding-top: 10px;
+    color: white;
+}
+.select select{
+    background: none;
+    width: 230px;
+    height: 30px;
+    border-radius: 10px;
+    margin: 25px 0px 0px 20px;
+    color: white;
+    border: 1px solid white;
+    background-color: #0062e3;
+}
+.icon{
+    color: white;
+    width: 50px;
+    height: 50px;
+    margin: 30px 0px 0px 20px;
+    font-size: larger;
+}
+.header-big-text{
+    background-color: #0062e3; 
+    color: white;
+    width: 100%;
+    height: 140px;
+    font-size: 120px;
+    text-align: center;
+    margin-top: 30px;
+}
+.search-box{
+    background-color: aliceblue;
+    width: 670px;
+    height: 55px;
+    border-radius: 20px;
+    margin: 20px 0px 0px 350px;
+    text-align: center;
+    font-size: 30px;
+    box-sizing: border-box;
+    padding-top: 15px;
+    color: gray;
+    box-sizing: border-box;
+}
+.header-text2{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: larger;
+    box-sizing: border-box;
+    padding-top: 15px;   
+}
+.header-button{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+.button1{
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 40px;
+    color: #0062e3;
+    margin: 10px 0px 0px 480px ;
+    border-radius: 10px;
+    border: none;
+}
+.button2{
+    background-color: #05203c;
+    width: 120px;
+    height: 40px;
+    color: white;
+    margin: 10px 0px 0px 20px ;
+    border-radius: 10px;
+     border: none;
+}
+.button3{
+    background-color: #05203c;
+    width: 120px;
+    height: 40px;
+    color: white;
+    margin: 10px 0px 0px 20px ;
+    border-radius: 10px;
+     border: none;
+}
+.container-second{
+    background-color: white;
+    width: 100%;
+    height: 600px;
+}
+.icon-text{
+    background-color: #ffffff;
+    width: 90%;
+    height: 100px;
+    font-size: xx-large;
+    margin: 0px 0px 0px 70px;
+    box-sizing: border-box;
+    padding-top: 30px;
+    color: rgb(87, 86, 86);
+}
+hr{
+     width: 90%;
+     margin: 10px 0px 0px 70px;
+}
+.container-second-text{
+    background-color: white;
+    color: #05203c;
+    width: 100%;
+    height: 80px;
+    margin-top: 10px;
+    font-size: 50px;
+    box-sizing: border-box;
+    padding-left: 70px;
+    padding-top: 10px;
+}
+.container-six-div{
+    background-color: white;
+    width: 100%;
+    height: 700px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.six-div{
+    background-color: white;
+    width: 580px;
+    height: 200px;
+    margin: 10px 0px 0px 42px;
+    border-radius: 10px;
+    border: 1px solid #0062e3;
+    transition: 0.1s;
+}
+.six-div:hover{
+    border: 2px solid #000dca;
+}
+.six-div i{
+    font-size: 50px;
+    color: #0062e3;
+    /* background-color: chocolate;  */
+}
+.six-div-text{
+    /* background-color: hotpink; */
+    height: 70px;
+    margin-top: 20px;
+}
+.h1{
+    margin-left: 25px;
+    /* background-color: chocolate; */
+}
+ 
+.learn{
+   margin-left: 25px;
+   margin-top: 15px;
+   color: #0062e3;
+   /* background-color: rgb(2, 119, 128); */
+}
+.six-div-text i{
+    font-size: small;
+    transition: 0.1s;
+}
+ .six-div-text i:hover{
+    transform: translateX(5px);
+} 
+
+.footer{
+    background-color: #05203c;
+    width: 100%;
+    height: 150px;
+    margin-top: 300px;
+    
+}
+ .footer-text{
+    /* background-color: brown; */
+    width: 100%;
+    height: 100px;
+    display: flex;
+    box-sizing: border-box;
+    margin-top: 50px;
+    padding-top: 50px;
+} 
+.footer-text1 a{
+    padding: 150px 0px 0px 50px;
+    color: white;
+    
+}
+.footer-text2 a{
+     padding: 150px 0px 0px 20px;
+    color: white;
+    
+}.footer-text3 a{
+    padding: 150px 0px 0px 20px;
+    color: white;
+    
+}
+.footer-text4{
+    /* background-color: aqua; */
+    color: white;
+    padding-left: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

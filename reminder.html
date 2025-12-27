@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/d82cc1b9ec.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            display: flex;
+            justify-content: end;
+            align-items: end;
+            height: 100vh;
+        }
+
+        #main {
+            background-color: azure;
+            width: 300px;
+            height: 200px;
+            border: 2px solid aqua;
+        }
+
+        #reminder {
+            background-color: aqua;
+            width: 300px;
+            height: 40px;
+            display: flex;
+            justify-content: space-between;
+            font-size: 20px;
+        }
+
+        .contain {
+            width: 100%;
+            max-height: 0px;
+            transition: 0.9s;
+        }
+
+        .show {
+            max-height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+           <div id="reminder" onclick="hideshow()">
+             <span>Reminder</span>
+             <span id="arrow"><i class="fa-solid fa-angle-down"></i></span>
+            </div>
+        <div class="contain">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum inventore eos minus, iure deleniti
+                deserunt sapiente recusandae reprehenderit perspiciatis laudantium eum ut ea eligendi repellendus
+                dolores blanditiis repudiandae hic beatae.</p>
+        </div>
+    </div>
+
+    <script>
+        let reminder = document.getElementById("reminder");
+        let arrow = document.getElementById("arrow");
+        let contain = document.getElementsByClassName("contain")[0];
+
+
+        function hideshow() {3
+          main.classList.toggle("show")
+            if (contain.classList.contains("show")) {
+                arrow.style.transform = "rotate(180deg)";
+            }
+            else {
+                arrow.style.transform = "rotate(0deg)"
+            }
+        }
+    </script>
+</body>
+
+</html>

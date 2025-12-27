@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://kit.fontawesome.com/d82cc1b9ec.js" crossorigin="anonymous"></script>
+  <style>
+    body {
+      height: 100vh;
+      display: flex;
+      justify-content: end;
+      align-items: end;
+    }
+
+    #box {
+      width: 300px;
+      /* height: 400px; */
+      border: 2px solid aqua;
+    }
+
+    #btn-box {
+      width: 100%;
+      height: 50px;
+      font-size: 27px;
+      background-color: aqua;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .content-box {
+      width: 100%;
+      max-height: 0px;
+      transition: 0.9s;
+    }
+
+    .show {
+      max-height: 100px;
+    }
+
+
+    
+  </style>
+</head>
+
+<body>
+  <div id="box">
+    <div id="btn-box" onclick="hideshow()">
+      <span>reminder</span>
+      <span id="arrow"><i class="fa-solid fa-angle-down"></i></span>
+    </div>
+    <div class="content-box">
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione
+        neque doloremque quod quidem adipisci modi saepe voluptates magnam
+        assumenda aliquam.
+      </p>
+    </div>
+  </div>
+
+      
+
+
+  <script>
+    let btn = document.getElementById("btn-box");
+    let arrow = document.getElementById("arrow");
+    let content = document.getElementsByClassName("content-box")[0];
+
+    function hideshow() {
+      content.classList.toggle("show")
+      if (content.classList.contains("show")) {
+        //   content.classList.remove("show")
+        arrow.style.transform = "rotate(180deg)";
+      } else {
+        // content.classList.add("show");
+        arrow.style.transform = "rotate(0deg)";
+      }
+    }
+  </script>
+</body>
+
+</html>
