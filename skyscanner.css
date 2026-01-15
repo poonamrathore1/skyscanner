@@ -1,0 +1,607 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: #05203C;
+    width: 100%;
+    height: 440px;
+    /* box-sizing: border-box; */
+}
+.container-div{
+    background-color: #05203C;
+    width: 95%;
+    height: 220px;
+    margin-left: 30px;
+}
+.header{
+    background-color: #05203C;
+    width: 100%;
+    height: 90px;
+    margin-left: 2px;
+    display: flex;
+}
+.logo{
+    width: 60px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.menu1{
+     color: white;
+     margin: 50px 0px 0px 950px;
+}
+.menu2{
+    color: white;
+    margin: 50px 0px 0px 20px;
+}
+.menu3{
+    color: white;
+    margin: 50px 0px 0px 20px;
+}
+.menu4{
+    color: white;
+    margin: 50px 0px 0px 20px;
+}
+.header-second{
+     background-color: #05203C;
+     width: 90%;
+     height: 70px;
+     margin-left: 50px;
+     box-sizing: border-box;
+}
+.header-second button{
+    background: none;
+    color: white;
+    width: 100px;
+    height: 35px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: 1px solid rgb(255, 255, 255);
+}
+.header-text{
+    background-color: #05203C;
+    color: white;
+    margin-left: 50px;
+}
+.container-div-second{
+    background-color: #05203C;
+    width: 90%;
+    height: 200px;
+    margin-left: 70px;
+}
+  select{
+      width: 90px;
+      height: 30px;
+      margin-left: 10px;
+      border-radius: 10px;
+      color: white;
+      border: 1px solid rgb(255, 255, 255);
+      /* background: none; */
+      background-color: #05203C;
+} 
+.saven-div{
+    background-color: #05203C;
+    width: 80%;
+    height: 90px;
+    margin-top: 10px;
+    display: flex;
+    position: relative;
+    margin-left: 60px;
+}
+.seven-div1{
+     background-color: rgb(255, 255, 255);
+     width: 195px;
+     height: 80px;
+     margin-left: 10px;
+     border-radius: 10px 0px 0px 10px;
+     box-sizing: border-box;
+     padding-top: 20px;
+     padding-left: 15px;
+}
+.seven-div1 span{
+    color: rgb(136, 135, 135);
+}
+.seven-div2{
+    background-color: rgb(255, 255, 255);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 16%;
+    margin-top: 15px;
+    border: 3px solid #05203C;
+    box-sizing: border-box;
+}
+.seven-div2 i{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+ .seven-div3{
+     background-color: rgb(255, 255, 255);
+     color: gray;
+     width: 195px;
+     height: 80px;
+     margin-left: 10px;
+     box-sizing: border-box;
+     padding-top: 20px;
+     padding-left: 20px;
+}
+.seven-div4{
+     background-color: rgb(255, 255, 255);
+     width: 195px;
+     height: 80px;
+     margin-left: 10px;
+     box-sizing: border-box;
+     padding-top: 20px;
+     padding-left: 15px;
+}
+.seven-div4 span{
+    color: gray;
+}
+.seven-div5{
+     background-color: rgb(255, 255, 255);
+     width: 195px;
+     height: 80px;
+     margin-left: 10px;
+     box-sizing: border-box;
+     padding-top: 20px;
+     padding-left: 15px;
+}
+.seven-div5 span{
+    color: gray;
+}
+.seven-div6{
+     background-color: rgb(255, 255, 255);
+     width: 195px;
+     height: 80px;
+     margin-left: 10px;
+     border-radius: 0px 10px 10px 0px;
+     box-sizing: border-box;
+     padding-top: 20px;
+     padding-left: 15px;
+}
+.seven-div6 span{
+    color: gray;
+}
+.seven-div7{
+     background-color: #0062E3;
+     color: white;
+     width: 100px;
+     height: 80px;
+     margin-left: 10px;
+     border-radius: 10px;
+     box-sizing: border-box;
+     padding-top: 30px;
+     padding-left: 27px;
+} 
+.seven-div7:hover{
+    background-color: #044ba8;
+}
+.header-last-text{
+    background-color: #05203C;
+    width: 100%;
+    height: 80px;
+}
+.text{
+    background-color: #05203C;
+    width: 100%;
+    height: 30px;
+    display: flex;
+}
+.checkbox1{
+    color: white;
+    margin-left: 70px;
+}
+.checkbox2{
+    color: white;
+    margin-left: 50px;
+}
+.checkbox3{
+    color: white;
+    margin-left: 550px;
+}
+.text2{
+     background-color: #05203C;
+    width: 100%;
+    height: 30px;
+}
+   .checkbox4{
+    color: white;
+    margin-left: 70px;
+   }
+
+.container-second{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 620px;
+}
+.three-div{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 150px;
+    display: flex;
+}
+.three-div1{
+    background-color: #05203C;
+    color: white;
+    width: 400px;
+    height: 70px;
+    margin-left: 60px;
+    margin-top: 40px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 25px;
+    box-sizing: border-box;
+}
+.three-div1:hover{
+    background-color: #033d8a;
+}
+.three-div2{
+    background-color: #05203C;
+    color: white;
+    width: 400px;
+    height: 70px;
+    margin-left: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 25px;
+    box-sizing: border-box;
+}
+.three-div2:hover{
+    background-color: #033d8a;
+}
+.three-div3{
+    background-color: #05203C;
+    color: white;
+    width: 400px;
+    height: 70px;
+    margin-left: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 25px;
+    box-sizing: border-box;
+}
+.three-div3:hover{
+    background-color: #033d8a;
+}
+.image{
+    width: 80%;
+    height: 300px;
+    margin-left: 60px;
+}
+.container-third{
+    background-color: darksalmon;
+    width: 100%;
+    height: 730px;
+}
+.selector{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 460px;
+}
+ .selector-text{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    padding-left: 55px;
+} 
+.selector-div{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 330px;
+    display: flex;
+}
+.selector-div-box{
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    height: 300px;
+    margin-left: 60px;
+}
+.selector-div-box2{
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    height: 300px;
+    margin-left: 20px;
+}
+.selector-div-box2 sub{
+    font-size: 11px;
+}
+ .selector-text2{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    padding: 5px 0px 0px 50px;
+}
+.last-div{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 300px;
+}
+.last-div-text{
+    background-color: rgb(255, 255, 255); 
+    width: 100%;
+    height: 55px;
+    box-sizing: border-box;
+    padding: 20px 0px 0px 50px;
+}
+.button-div{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 70px;
+    display: flex;
+}
+.button1{
+    background-color: #05203C;
+    width: 80px;
+    height: 40px;
+    color: white;
+    margin: 20px 0px 0px 45px;
+    box-sizing: border-box;
+    padding: 10px 0px 0px 25px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+.button2{
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    height: 40px;
+     margin: 20px 0px 0px 20px;
+    box-sizing: border-box;
+    padding: 10px 0px 0px 25px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.button3{
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    height: 40px;
+     margin: 20px 0px 0px 20px;
+     box-sizing: border-box;
+     padding: 10px 0px 0px 25px;
+     border-radius: 10px;
+     border: 1px solid black;
+}
+.button4{
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    height: 40px;
+    margin: 20px 0px 0px 20px;
+    box-sizing: border-box;
+    padding: 10px 0px 0px 25px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+
+
+.last-div-box{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 150px;
+    display: flex;
+}
+.last-div-box-product1{
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height: 130px;
+    margin-left: 50px;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+.last-div-box-product1 a{
+    color: rgb(34, 30, 30);
+    text-decoration: none;
+}
+.last-div-box-product1 a:hover{
+    text-decoration: underline;
+}
+.last-div-box-product2{
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height: 130px;
+    margin-left: 250px;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+.last-div-box-product2 a{
+    color: rgb(34, 30, 30);
+    text-decoration: none;
+}
+.last-div-box-product2 a:hover{
+    text-decoration: underline;
+}
+.last-div-box-product3{
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height: 130px;
+    margin-left: 250px;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+.last-div-box-product3 a{
+    color: rgb(34, 30, 30);
+    text-decoration: none;
+}
+.last-div-box-product3 a:hover{
+    text-decoration: underline;
+}
+
+
+               /* footer */
+ .footer{
+    background-color: cornflowerblue;
+    width: 100%;
+    height: 300px;
+    margin-top: 270px;
+}
+.footer-box{
+    background-color: #05203C;
+    width: 100%;
+    height: 250px;
+    display: flex;
+}
+.footer-box1{
+    background-color: #FFFFFF1A;
+    color: white;
+    width: 250px;
+    height: 40px;
+    margin: 50px 0px 0px 50px;
+   box-sizing: border-box;
+   padding: 10px 0px 0px 10px;
+   border-radius: 10px;
+   
+}
+.footer-box1:hover{
+    background-color: #001022;
+}
+.footer-box2 {
+    background-color: #05203C;
+    color: white;
+    width: 200px;
+    height: 200px;
+    margin: 50px 0px 0px 120px;
+}
+.footer-box2 a{
+    color: white;
+    text-decoration: none;
+}
+.footer-box2 a:hover{
+    text-decoration: underline;
+}
+.footer-box3{
+    background-color: #05203C;
+    color: white;
+    width: 200px;
+    height: 200px;
+    margin: 50px 0px 0px 120px;
+}
+.footer-box3 a{
+    color: white;
+    text-decoration: none;
+}
+.footer-box3 a:hover{
+    text-decoration: underline;
+}
+.footer-box4{
+    background-color: #05203C; 
+    color: white;
+    width: 200px;
+    height: 200px;
+    margin: 50px 0px 0px 120px;
+    
+
+}
+.footer-box4 select{
+    background: none;
+    border: none;
+    width: 200px;
+    color: white;
+    background-color: #05203C;
+
+}
+.footer-last-text{
+    background-color: #05203C;
+    color: white;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+} 
+
+
+
+#btn-box{
+            display: flex;
+        }
+        #btn{
+            background-color: #05203C;
+            width: 100px;
+            height: 40px;
+            padding: 0px 0px 0px 3px;
+            color: white;
+            border-radius: 10px;
+            border: 1px solid white;
+            margin-left: 70px;
+
+        }
+        /* .perent-div{
+            position: relative;
+        } */
+        #box{
+            background-color: white;
+            width: 300px;
+            height: 160px;
+            margin-top: 10px; 
+            border-radius: 10px;
+            display: none;
+            position: absolute;
+            z-index: +1;
+            margin-left: 70px;
+            
+        }
+       
+        #one{
+            /* background-color: cornflowerblue;  */
+            width: 250px;
+            height: 40px;
+            font-size: 15px;
+            margin-top: 15px;
+            margin-left: 20px;
+            transition: 0.1s;
+            box-sizing: border-box;
+            padding-top: 10px;
+        }
+        #one:hover{
+            background-color: #dae7f8;
+        }
+        #two{
+            /* background-color: crimson;  */
+            width: 250px;
+            height: 40px;
+            font-size: 15px;
+            margin-top: 5px;
+            margin-left: 20px;
+            transition: 0.1s;
+            box-sizing: border-box;
+            padding-top: 10px;
+        }
+        #two:hover{
+            background-color: #dae7f8;
+        }
+        #three{
+            /* background-color: cornflowerblue; */
+            width: 250px;
+            height: 40px;
+            font-size: 15px;
+            margin-top: 5px;
+            margin-left: 20px;
+            transition: 0.1s;
+            box-sizing: border-box;
+            padding-top: 10px;
+
+        }
+        #three:hover{
+            background-color: #dae7f8;
+        }
+        #icon{
+            display: inline-block;
+        }
+        #ii{
+            margin-right: 30px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
